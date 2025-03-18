@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">BookKeeper</string>
+    <string name="title_home">Книги</string>
+    <string name="title_dashboard">Мои книги</string>
+    <string name="title_notifications">Уведомления</string>
+    
+    <!-- Общие строки -->
+    <string name="search_hint">Поиск книг</string>
+    <string name="no_books_found">Книги не найдены</string>
+    <string name="no_notifications">Нет уведомлений</string>
+    <string name="network_error">Ошибка сети. Проверьте подключение к интернету</string>
+    <string name="retry">Повторить</string>
+    <string name="loading">Загрузка...</string>
+    <string name="load_more">Загрузить еще</string>
+    <string name="next">Далее</string>
+    <string name="skip">Пропустить</string>
+    <string name="onboarding_image">Изображение для онбординга</string>
+    <string name="app_logo">Логотип приложения</string>
+    
+    <!-- Цитаты для онбординга -->
+    <string name="quote_1">Откройте для себя мир книг в одном приложении</string>
+    <string name="quote_2">Управляйте своей библиотекой с легкостью</string>
+    <string name="quote_3">Никогда не забывайте вернуть книгу благодаря умным уведомлениям</string>
+    
+    <!-- Onboarding Quotes -->
+    <string name="onboarding_quote_1">«Книга — это мечта, которую вы держите в руках»</string>
+    <string name="onboarding_quote_2">«Найдите свою следующую любимую книгу в нашей библиотеке»</string>
+    <string name="onboarding_quote_3">«Чтение — это путешествие, которое начинается со страницы и заканчивается в вашем сердце»</string>
+    
+    <!-- Onboarding Descriptions -->
+    <string name="onboarding_desc_1">Откройте для себя мир литературы с BookKeeper</string>
+    <string name="onboarding_desc_2">Легко находите книги и управляйте своей коллекцией</string>
+    <string name="onboarding_desc_3">Отслеживайте прогресс чтения и делитесь впечатлениями</string>
+    
+    <!-- Строки для книг -->
+    <string name="book_details">Детали книги</string>
+    <string name="book_author">Автор</string>
+    <string name="book_genre">Жанр</string>
+    <string name="book_description">Описание</string>
+    <string name="book_status">Статус</string>
+    <string name="book_available">Доступна</string>
+    <string name="book_borrowed">Заимствована</string>
+    <string name="borrow_book">Взять книгу</string>
+    <string name="return_book">Вернуть книгу</string>
+    <string name="add_book">Добавить книгу</string>
+    <string name="edit_book">Редактировать книгу</string>
+    <string name="delete_book">Удалить книгу</string>
+    <string name="book_borrowed_message">Книга успешно взята</string>
+    <string name="book_returned">Книга успешно возвращена</string>
+    
+    <!-- Строки для профиля -->
+    <string name="profile">Профиль</string>
+    <string name="borrowed_books">Взятые книги</string>
+    <string name="reading_history">История чтения</string>
+    <string name="favorite_genres">Любимые жанры</string>
+    <string name="edit_profile">Редактировать профиль</string>
+    <string name="logout">Выйти</string>
+    
+    <!-- Строки для уведомлений -->
+    <string name="mark_as_read">Отметить как прочитанное</string>
+    <string name="mark_all_as_read">Отметить все как прочитанные</string>
+    <string name="delete_notification">Удалить уведомление</string>
+    <string name="return_reminder">Напоминание о возврате</string>
+    <string name="book_recommendation">Рекомендация книги</string>
+    <string name="new_book_notification">Новая книга</string>
+    <string name="open_book_details">Открыть книгу: %1$s</string>
+    
+    <!-- Строки для аутентификации -->
+    <string name="login_title">Вход в приложение</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="login">Войти</string>
+    <string name="register_link">Нет аккаунта? Зарегистрироваться</string>
+    <string name="login_prompt">Уже есть аккаунт? Войти</string>
+    <string name="error_email_empty">Введите email</string>
+    <string name="error_password_empty">Введите пароль</string>
+    <string name="error_invalid_credentials">Неверный email или пароль</string>
+    <string name="register_title">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="error_name_empty">Введите имя</string>
+    <string name="error_email_invalid">Введите корректный email</string>
+    <string name="error_password_short">Пароль должен содержать минимум 6 символов</string>
+    <string name="error_email_exists">Пользователь с таким email уже существует</string>
+    <string name="demo_login">Войти в демо-режиме</string>
+    <string name="login_success">Вход выполнен успешно</string>
+    <string name="login_failed">Ошибка входа. Проверьте данные</string>
+    <string name="register_success">Регистрация выполнена успешно</string>
+    <string name="register_failed">Ошибка регистрации</string>
+    <string name="passwords_not_match">Пароли не совпадают</string>
+    <string name="email_already_exists">Пользователь с такой почтой уже существует</string>
+    <string name="invalid_email">Неверный формат электронной почты</string>
+    <string name="password_too_short">Пароль должен содержать не менее 6 символов</string>
+    <string name="get_started">Войти</string>
+    <string name="genre_format">Жанр: %s</string>
+    <string name="publish_date_format">Дата публикации: %s</string>
+    <string name="no_description">Описание отсутствует</string>
+    <string name="refresh">Обновить</string>
+    <string name="page_indicator">Страница: %1$d</string>
+    <string name="page_indicator_default">Страница: 1</string>
+    
+    <!-- Строки для выбора категорий -->
+    <string name="select_categories">Выбор категорий</string>
+    <string name="select_categories_description">Выберите интересующие вас категории книг</string>
+    <string name="select_categories_hint">Это поможет нам рекомендовать вам книги, которые могут вам понравиться</string>
+    <string name="continue_button">Продолжить</string>
+    <string name="select_at_least_one_category">Пожалуйста, выберите хотя бы одну категорию</string>
+    <string name="category_icon">Иконка категории</string>
+    <string name="preferences_saved">Предпочтения сохранены</string>
+    <string name="recommended_for_you">Рекомендуем для вас</string>
+    <string name="based_on_preferences">На основе ваших предпочтений</string>
+    <string name="no_books_found_for_query">По запросу \"%1$s\" ничего не найдено</string>
+    
+    <!-- Дополнительные строки для аутентификации Firebase -->
+    <string name="no_account_register">Нет аккаунта? Зарегистрироваться</string>
+    <string name="already_have_account">Уже есть аккаунт? Войти</string>
+    <string name="auth_failed">Ошибка аутентификации</string>
+    <string name="auth_success">Аутентификация успешна</string>
+    <string name="sync_success">Синхронизация успешно завершена</string>
+    <string name="sync_failed">Ошибка синхронизации</string>
+    <string name="sync_in_progress">Синхронизация...</string>
+    <string name="user_not_logged_in">Пользователь не авторизован</string>
+    <string name="profile_updated">Профиль обновлен</string>
+    <string name="profile_update_failed">Ошибка обновления профиля</string>
+    <string name="avatar_upload_success">Аватар успешно загружен</string>
+    <string name="avatar_upload_failed">Ошибка загрузки аватара</string>
+    <string name="sync_books">Синхронизировать книги</string>
+    <string name="sync_profile">Синхронизировать профиль</string>
+    <string name="welcome_user">Добро пожаловать, %1$s!</string>
+    <string name="required">обязательно</string>
+    
+    <!-- Главный экран -->
+    <string name="no_books">У вас пока нет книг</string>
+    <string name="error_loading_books">Ошибка загрузки книг</string>
+    
+    <!-- Детали книги -->
+    <string name="confirm_delete">Удалить книгу?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="book_deleted">Книга удалена</string>
+    <string name="error_deleting_book">Ошибка удаления книги</string>
+    
+    <!-- Категории -->
+    <string name="categories">Категории</string>
+    <string name="all_books">Все книги</string>
+    <string name="favorites">Избранное</string>
+    <string name="reading">Читаю</string>
+    <string name="want_to_read">Хочу прочитать</string>
+    <string name="read">Прочитано</string>
+</resources>

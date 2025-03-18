@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Фоновый круг -->
+    <path
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <!-- Книга - основа -->
+    <path
+        android:fillColor="?attr/colorSurface"
+        android:pathData="M60,60L140,60A5,5 0,0 1,145 65L145,135A5,5 0,0 1,140 140L60,140A5,5 0,0 1,55 135L55,65A5,5 0,0 1,60 60z" />
+    
+    <!-- Книга - обложка -->
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M60,60L100,60A5,5 0,0 1,105 65L105,135A5,5 0,0 1,100 140L60,140A5,5 0,0 1,55 135L55,65A5,5 0,0 1,60 60z" />
+    
+    <!-- Книга - корешок -->
+    <path
+        android:fillColor="?attr/colorPrimaryDark"
+        android:pathData="M98,60L102,60A3,3 0,0 1,105 63L105,137A3,3 0,0 1,102 140L98,140A3,3 0,0 1,95 137L95,63A3,3 0,0 1,98 60z" />
+    
+    <!-- Книга - страницы -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M105,65L140,65A0,0 0,0 1,140 65L140,135A0,0 0,0 1,140 135L105,135A0,0 0,0 1,105 135L105,65A0,0 0,0 1,105 65z" />
+    
+    <!-- Книга - текст на страницах (строки) -->
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M110,80L135,80A1,1 0,0 1,136 81L136,81A1,1 0,0 1,135 82L110,82A1,1 0,0 1,109 81L109,81A1,1 0,0 1,110 80z" />
+    
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M110,90L130,90A1,1 0,0 1,131 91L131,91A1,1 0,0 1,130 92L110,92A1,1 0,0 1,109 91L109,91A1,1 0,0 1,110 90z" />
+    
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M110,100L135,100A1,1 0,0 1,136 101L136,101A1,1 0,0 1,135 102L110,102A1,1 0,0 1,109 101L109,101A1,1 0,0 1,110 100z" />
+    
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M110,110L125,110A1,1 0,0 1,126 111L126,111A1,1 0,0 1,125 112L110,112A1,1 0,0 1,109 111L109,111A1,1 0,0 1,110 110z" />
+    
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M110,120L135,120A1,1 0,0 1,136 121L136,121A1,1 0,0 1,135 122L110,122A1,1 0,0 1,109 121L109,121A1,1 0,0 1,110 120z" />
+    
+    <!-- Книга - заголовок на обложке -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M65,80L95,80A2,2 0,0 1,97 82L97,82A2,2 0,0 1,95 84L65,84A2,2 0,0 1,63 82L63,82A2,2 0,0 1,65 80z" />
+    
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M65,90L90,90A2,2 0,0 1,92 92L92,92A2,2 0,0 1,90 94L65,94A2,2 0,0 1,63 92L63,92A2,2 0,0 1,65 90z" />
+</vector> 

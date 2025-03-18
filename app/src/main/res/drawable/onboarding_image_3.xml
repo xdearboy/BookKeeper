@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Фоновый круг -->
+    <path
+        android:fillColor="?attr/colorTertiaryContainer"
+        android:pathData="M100,100m-100,0a100,100 0,1 1,200 0a100,100 0,1 1,-200 0" />
+    
+    <!-- Персонаж - тело -->
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M100,70m-25,0a25,25 0,1 1,50 0a25,25 0,1 1,-50 0" />
+    
+    <!-- Персонаж - руки -->
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M75,90L75,120A5,5 0,0 0,80 125L85,125A5,5 0,0 0,90 120L90,95A0,0 0,0 1,90 95L90,95A0,0 0,0 1,90 95L75,90z" />
+    
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M125,90L125,120A5,5 0,0 1,120 125L115,125A5,5 0,0 1,110 120L110,95A0,0 0,0 0,110 95L110,95A0,0 0,0 0,110 95L125,90z" />
+    
+    <!-- Персонаж - ноги -->
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M90,130L90,160A5,5 0,0 0,95 165L100,165A5,5 0,0 0,105 160L105,130A0,0 0,0 0,105 130L90,130A0,0 0,0 0,90 130z" />
+    
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M110,130L110,160A5,5 0,0 1,105 165L100,165A5,5 0,0 1,95 160L95,130A0,0 0,0 1,95 130L110,130A0,0 0,0 1,110 130z" />
+    
+    <!-- Книга в руках -->
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M70,100L130,100A5,5 0,0 1,135 105L135,125A5,5 0,0 1,130 130L70,130A5,5 0,0 1,65 125L65,105A5,5 0,0 1,70 100z" />
+    
+    <!-- Книга - корешок -->
+    <path
+        android:fillColor="?attr/colorPrimaryDark"
+        android:pathData="M98,100L102,100A3,3 0,0 1,105 103L105,127A3,3 0,0 1,102 130L98,130A3,3 0,0 1,95 127L95,103A3,3 0,0 1,98 100z" />
+    
+    <!-- Книга - страницы слева -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M70,105L95,105A0,0 0,0 1,95 105L95,125A0,0 0,0 1,95 125L70,125A0,0 0,0 1,70 125L70,105A0,0 0,0 1,70 105z" />
+    
+    <!-- Книга - страницы справа -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M105,105L130,105A0,0 0,0 1,130 105L130,125A0,0 0,0 1,130 125L105,125A0,0 0,0 1,105 125L105,105A0,0 0,0 1,105 105z" />
+    
+    <!-- Книга - текст на страницах (строки) -->
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M75,110L90,110A1,1 0,0 1,91 111L91,111A1,1 0,0 1,90 112L75,112A1,1 0,0 1,74 111L74,111A1,1 0,0 1,75 110z" />
+    
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M75,115L85,115A1,1 0,0 1,86 116L86,116A1,1 0,0 1,85 117L75,117A1,1 0,0 1,74 116L74,116A1,1 0,0 1,75 115z" />
+    
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M110,110L125,110A1,1 0,0 1,126 111L126,111A1,1 0,0 1,125 112L110,112A1,1 0,0 1,109 111L109,111A1,1 0,0 1,110 110z" />
+    
+    <path
+        android:fillColor="?attr/colorOutline"
+        android:pathData="M110,115L120,115A1,1 0,0 1,121 116L121,116A1,1 0,0 1,120 117L110,117A1,1 0,0 1,109 116L109,116A1,1 0,0 1,110 115z" />
+    
+    <!-- Персонаж - глаза -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M90,65m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M110,65m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M90,65m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    
+    <path
+        android:fillColor="@android:color/black"
+        android:pathData="M110,65m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    
+    <!-- Персонаж - улыбка -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="@android:color/white"
+        android:strokeWidth="2"
+        android:pathData="M90,80 Q100,90 110,80" />
+</vector> 

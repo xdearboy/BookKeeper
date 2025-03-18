@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="192dp"
+    android:viewportWidth="128"
+    android:viewportHeight="192">
+    
+    <!-- Фон обложки -->
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M0,0h128v192h-128z" />
+    
+    <!-- Контур книги -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M4,4h120v184h-120z"
+        android:strokeWidth="2"
+        android:strokeColor="#CCCCCC" />
+    
+    <!-- Иконка книги -->
+    <path
+        android:fillColor="#AAAAAA"
+        android:pathData="M64,80m-32,0a32,32 0,1 1,64 0a32,32 0,1 1,-64 0" />
+    
+    <!-- Текст "КНИГА" -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,130h40v4h-40z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,140h40v4h-40z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,150h40v4h-40z" />
+</vector>
