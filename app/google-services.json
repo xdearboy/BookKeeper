@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388474163788",
+    "project_id": "bookkeeper-79c56",
+    "storage_bucket": "bookkeeper-79c56.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388474163788:android:55a39d089e500e767a9ae9",
+        "android_client_info": {
+          "package_name": "com.xdearboy.bookkeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqzMXdvZ582hRKnYW0uprB2Rk-auFYlyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+} 

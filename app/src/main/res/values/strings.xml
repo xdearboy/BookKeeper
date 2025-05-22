@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookKeeper</string>
+    <string name="book_details">Детали книги</string>
+    <string name="book_description">Описание книги</string>
+    <string name="borrow_book">Взять книгу</string>
+    <string name="select_categories">Выберите категории</string>
+    <string name="select_categories_description">Пожалуйста, выберите интересующие вас категории</string>
+    <string name="select_categories_hint">Категории...</string>
+    <string name="continue_button">Продолжить</string>
+    <string name="app_logo">BookKeeper</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="register_link">Зарегистрироваться</string>
+    <string name="next">Далее</string>
+    <string name="skip">Пропустить</string>
+    <string name="register_title">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="login_prompt">Уже есть аккаунт? Войти</string>
+    <string name="profile_avatar">Аватар профиля</string>
+    <string name="profile_edit">Редактировать профиль</string>
+    <string name="borrowed_books">Взятые книги</string>
+    <string name="no_books_found">Книги не найдены</string>
+    <string name="search_hint">Поиск книг...</string>
+    <string name="no_account_register">Нет аккаунта? Зарегистрируйтесь</string>
+    <string name="no_notifications">Нет уведомлений</string>
+    <string name="mark_all_as_read">Отметить все как прочитанные</string>
+    <string name="already_have_account">Уже есть аккаунт?</string>
+    <string name="category_icon">Иконка категории</string>
+    <string name="title_notifications">Уведомления</string>
+    <string name="mark_as_read">Отметить как прочитанное</string>
+    <string name="title_home">Главная</string>
+    <string name="title_dashboard">Панель</string>
+    <string name="profile">Профиль</string>
+    <string name="logout">Выйти</string>
+    <string name="login_title">Вход</string>
+    
+    <!-- Missing strings -->
+    <string name="book_borrowed">Книга взята</string>
+    <string name="book_available">Книга доступна</string>
+    <string name="select_at_least_one_category">Выберите хотя бы одну категорию</string>
+    <string name="error_email_empty">Email не может быть пустым</string>
+    <string name="error_password_empty">Пароль не может быть пустым</string>
+    <string name="invalid_email">Некорректный email</string>
+    <string name="password_too_short">Пароль должен быть не менее 6 символов</string>
+    <string name="login_success">Вход выполнен успешно</string>
+    <string name="required">обязательно</string>
+    <string name="passwords_not_match">Пароли не совпадают</string>
+    <string name="register_success">Регистрация выполнена успешно</string>
+    <string name="no_description">Описание отсутствует</string>
+    <string name="genre_format">Жанр: %s</string>
+    <string name="publish_date_format">Дата публикации: %s</string>
+    <string name="return_book">Вернуть книгу</string>
+    <string name="network_error">Ошибка сети</string>
+    <string name="retry">Повторить</string>
+    <string name="open_book_details">Открыть детали книги: %s</string>
+    <string name="onboarding_quote_1">"Книга — это мечта, которую вы держите в руках."</string>
+    <string name="onboarding_desc_1">Откройте для себя мир книг с BookKeeper</string>
+    <string name="onboarding_quote_2">"Чтение — это путешествие, которое начинается со страницы."</string>
+    <string name="onboarding_desc_2">Находите и заимствуйте книги с легкостью</string>
+    <string name="onboarding_quote_3">"Книги — это корабли мысли, странствующие по волнам времени."</string>
+    <string name="onboarding_desc_3">Отслеживайте свои заимствования и получайте рекомендации</string>
+    <string name="get_started">Начать</string>
+</resources>
